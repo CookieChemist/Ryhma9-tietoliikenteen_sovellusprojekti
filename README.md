@@ -8,7 +8,7 @@
 
 System architechture pictured below:
 
-![Kuva tulossa](documents/TLProjectSystemArchitechture.jpeg?raw=true "System architechture")
+![Kuva tulossa](documents/TLProjectSystemArchitechture.JPG?raw=true "System architechture")
 
 
 
