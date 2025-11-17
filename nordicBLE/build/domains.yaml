@@ -1,0 +1,10 @@
+default: nordicBLE
+build_dir: C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build
+domains:
+  - name: nordicBLE
+    build_dir: C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/nordicBLE
+  - name: ipc_radio
+    build_dir: C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/ipc_radio
+flash_order:
+  - ipc_radio
+  - nordicBLE
