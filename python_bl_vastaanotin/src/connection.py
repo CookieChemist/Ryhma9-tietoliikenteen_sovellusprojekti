@@ -1,6 +1,7 @@
 import argparse
 import asyncio
 import logging
+import csv
 from typing import Optional
 
 from bleak import BleakClient, BleakScanner
@@ -15,14 +16,15 @@ class Args(argparse.Namespace):
     debug: bool
 
 
+f = open("ble_notifications.txt", "a", encoding="utf-16")
+
 def notification_handler(characteristic: BleakGATTCharacteristic, data: bytearray):
     """Simple notification handler which prints the data received."""
-    with open("ble_notifications.txt", "a", encoding="utf-16") as f:
-        data = str(int.from_bytes(data, byteorder='little'))
-        f.write(data)
-        f.write("\n")
+    data = str(int.from_bytes(data, byteorder='little'))
+    f.write(data)
+    f.write("\n")
 
-    logger.info("%s: %r", characteristic.description, data)
+    logger.info("%r", data)
 
 
 async def main(args: Args):
@@ -43,9 +45,10 @@ async def main(args: Args):
 
     logger.info("connecting to device...")
 
+    
     async with BleakClient(device) as client:
         logger.info("Connected")
-
+    
         await client.start_notify(args.characteristic, notification_handler)
         await asyncio.sleep(5.0)
         await client.stop_notify(args.characteristic)
