@@ -7,6 +7,7 @@ from typing import Optional
 from bleak import BleakClient, BleakScanner
 from bleak.backends.characteristic import BleakGATTCharacteristic
 
+
 logger = logging.getLogger(__name__)
 
 class Args(argparse.Namespace):
@@ -24,7 +25,7 @@ def notification_handler(characteristic: BleakGATTCharacteristic, data: bytearra
     f.write(data)
     f.write("\n")
 
-    logger.info("%r", data)
+    logger.info("%s: %r", characteristic.description, data)
 
 
 async def main(args: Args):

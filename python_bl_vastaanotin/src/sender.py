@@ -1,14 +1,15 @@
 
 import mysql.connector
+import os
 
 file = open("ble_notifications.txt", mode = "r", encoding = "utf-16")
 lines = file.readlines()
 file.close()
 
 mydb = mysql.connector.connect(
-  host="172.20.241.9",
+  host=os.getenv("DATABASE_IP"),
+  password=os.getenv("DATABASE_PASSWORD"),
   user="dbaccess_rw",
-  password="fasdjkf2389vw2c3k234vk2f3",
   database="measurements"
 )
 
