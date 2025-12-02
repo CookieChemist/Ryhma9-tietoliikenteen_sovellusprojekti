@@ -1,6 +1,5 @@
 import numpy as np
 
-
 import matplotlib.pyplot as plt
 
 from collections import Counter
@@ -87,6 +86,22 @@ for e in range(epochs):
                 currentCluster['points'] = []
             else:
                 currentCluster['center'] = 1500+100*(np.random.random((X_data.shape[1],)))
+
+
+with open("center_points.h", "w") as hfile:
+    hfile.write(f"int CP[06][3] = " + "{\n")
+
+    for row in range(6):
+        values = []
+        for value in clusters[row]['center']:
+            values.append(str(value))
+        formatted = ", ".join(values)
+        hfile.write("{" + f"{formatted}" + "},\n")
+    hfile.write("};")
+            
+
+
+
 
 
 
