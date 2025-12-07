@@ -4,7 +4,7 @@
 
 ## Project overview
 
-Developed as a part of the Tietoliikenteen sovellusprojekti course at OAMK. The goal of the project was to develop a system to measure and transmit accelerometer data, which would then be used to calculate cluster centers using K-means. The data was first measured using a Nordic Semiconductor nRF 5340DK development board and transmitted through Bluetooth Low Energy to a Raspberry PI functioning as an IoT-router. Data was then be uploaded into a MySQL database running on a separate Linux server, where it can then accessed for use in the K-means program. K-means was used to calculate 6 center points, which are used by a program running on the Nordic board to estimate sensor orientation.
+Developed as a part of a networking application course at OAMK. The goal of the project was to develop a system to measure and transmit accelerometer data, which would then be used to calculate cluster centers using k-means. The data was first measured using a Nordic Semiconductor nRF 5340DK development board and transmitted through Bluetooth Low Energy to a Raspberry Pi functioning as an IoT-router. Data was then uploaded into a MySQL database running on a separate Linux server, where it can be accessed for use in the k-means program. K-means was used to calculate six center points, which are used by a program running on the Nordic board to estimate sensor orientation.
 
 <br>
 
@@ -16,7 +16,7 @@ Overview of system architecture pictured below:
 
 ### Nordic application for measuring sensor data and transmitting via BLE
 
-Measures and transmits sensor data via BLE from the nRF530DK board to the Raspberry PI. The program creates a custom service and characteristic with notification support. By subscribing to these notifications a client receives 3D coordinate values, one value per notification. Based on examples included in the Bluetooth Low Energy fundamentals course by Nordic Developer Academy.
+Measures and transmits sensor data via BLE from the nRF530DK board to the Raspberry Pi. The program creates a custom service and characteristic with notification support. By subscribing to these notifications a client receives 3D coordinate values, one value per notification. Based on examples included in the Bluetooth Low Energy fundamentals course by Nordic Developer Academy.
 
 
 ### Python program for receiving and recording the BLE transmission
