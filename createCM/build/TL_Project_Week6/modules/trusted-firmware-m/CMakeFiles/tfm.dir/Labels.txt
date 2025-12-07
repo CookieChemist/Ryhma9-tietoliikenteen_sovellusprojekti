@@ -1,0 +1,13 @@
+# Target labels
+ tfm
+# Source files and their labels
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/CMakeFiles/tfm
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/CMakeFiles/tfm.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule
