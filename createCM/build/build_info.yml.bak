@@ -1,0 +1,22 @@
+cmake:
+  board:
+    name: 'nrf5340dk'
+    path:
+     - 'C:/ncs/v3.1.1/zephyr/boards/nordic/nrf5340dk'
+    qualifiers: 'nrf5340/cpuapp/ns'
+    revision: ''
+  images:
+   - name: 'TL_Project_Week6'
+     source-dir: 'C:/TLprojektiviikko6/TL_Project_Week6'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/empty.conf'
+     - 'C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/empty.conf'
+    user-files:
+     - 'C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/empty.conf'
+version: '0.1.0'
+west:
+  command: 'C:\ncs\toolchains\c1a76fddb2\opt\bin\Scripts\west build --build-dir c:/TLprojektiviikko6/TL_Project_Week6/build c:/TLprojektiviikko6/TL_Project_Week6 --pristine --board nrf5340dk/nrf5340/cpuapp/ns -- -DDTC_OVERLAY_FILE=nrf5340dk_nrf5340_cpuapp_ns.overlay'
+  topdir: 'c:\ncs\v3.1.1'
+  version: '1.4.0'

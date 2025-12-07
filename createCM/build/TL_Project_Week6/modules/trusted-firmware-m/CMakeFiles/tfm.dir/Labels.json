@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/CMakeFiles/tfm"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/CMakeFiles/tfm.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule"
+		},
+		{
+			"file" : "C:/TLprojektiviikko6/TL_Project_Week6/build/TL_Project_Week6/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tfm"
+		],
+		"name" : "tfm"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ TL_Project_Week6
+# Source files and their labels
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/CMakeFiles/TL_Project_Week6
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/CMakeFiles/TL_Project_Week6.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/CMakeFiles/TL_Project_Week6-complete.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-build.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-configure.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-download.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-install.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-mkdir.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-patch.rule
+C:/TLprojektiviikko6/TL_Project_Week6/build/_sysbuild/sysbuild/images/TL_Project_Week6-prefix/src/TL_Project_Week6-stamp/TL_Project_Week6-update.rule
