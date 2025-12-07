@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/CMakeFiles/nordicBLE"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/CMakeFiles/nordicBLE.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/CMakeFiles/nordicBLE-complete.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-build.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-configure.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-download.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-install.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-mkdir.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-patch.rule"
+		},
+		{
+			"file" : "C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nordicBLE"
+		],
+		"name" : "nordicBLE"
+	}
+}

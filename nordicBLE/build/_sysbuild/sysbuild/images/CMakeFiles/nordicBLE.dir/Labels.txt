@@ -1,0 +1,13 @@
+# Target labels
+ nordicBLE
+# Source files and their labels
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/CMakeFiles/nordicBLE
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/CMakeFiles/nordicBLE.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/CMakeFiles/nordicBLE-complete.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-build.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-configure.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-download.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-install.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-mkdir.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-patch.rule
+C:/TLProjekti/Ryhma9-tietoliikenteen_sovellusprojekti/nordicBLE/build/_sysbuild/sysbuild/images/nordicBLE-prefix/src/nordicBLE-stamp/nordicBLE-update.rule
